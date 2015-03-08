@@ -1,0 +1,51 @@
+package com.ehome;
+
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class HumitureTab2Activity extends Activity{
+	private Button btn_title_left;
+	private TextView top_title;
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        ChartView view = new ChartView(HumitureTab2Activity.this);
+		view.SetInfo(new String[] { "7-11", "7-12", "7-13", "7-14", "7-15",
+				"7-16", "7-17" }, // X轴刻度
+				new String[] { "", "10", "15", "20", "25", "30" }, // Y轴刻度
+				new String[] { "48", "36", "35", "30", "30", "30", "35" }, // 数据
+				"湿度表");
+        setContentView(view);
+        
+        //initViews();
+        //initEvents();
+        
+        //top_title.setText("温湿度");
+	}
+	/**
+	@Override
+	protected void initViews() {
+		// TODO Auto-generated method stub
+		btn_title_left = (Button) findViewById(R.id.btn_title_left);
+		top_title = (TextView) findViewById(R.id.top_title);
+	}
+
+	@Override
+	protected void initEvents() {
+		// TODO Auto-generated method stub
+		btn_title_left.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            	HumitureTabActivity.this.finish();
+            	overridePendingTransition(R.anim.zoomin, R.anim.zoomout);
+            }
+        });
+	}
+	**/
+}

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_bar"/>
+    <ScrollView    
+	    android:layout_width="fill_parent"    
+	    android:layout_height="fill_parent"  
+	    android:scrollbars="none"    
+	    android:fadingEdge="vertical">
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >    
+	    
+	    <TextView
+	        style="@style/Smile.TextView._Black"
+	        android:layout_margin="10.0dip"
+	        android:layout_centerVertical="true"
+	        android:textSize="16sp"
+	        android:text="使用语音功能时请说“开启/关闭+设备名 ”   如：”开启空调”或”关闭空调”"
+	        android:textColor="@color/color_hint" />
+	
+	   
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/tv"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="@string/tv" />
+	<!-- 
+	        <TextView
+	            android:id="@+id/tv_air_pattern"
+	            style="@style/Smile.TextView._Black"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="10dp"
+	            android:text="电视"
+	            android:textColor="@color/color_hint" />
+ 	-->
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/light"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="主卧1号灯" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/light"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="主卧2号灯" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/light"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="客厅1号灯" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/light"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="客厅2号灯" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/air"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="@string/air" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/fan"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="@string/fan" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:layout_marginBottom="30dp"
+	        android:padding="5dp" >
+			
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/curtain"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="@string/curtain" />
+
+	    </RelativeLayout>
+	
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

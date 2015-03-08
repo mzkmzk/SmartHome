@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray"
+    tools:context=".AirSetActivity" >
+
+    <include layout="@layout/title_bar" />
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="48.0dip"
+	    android:orientation="vertical" >   
+	    <!-- 
+		<RelativeLayout
+	        android:id="@+id/layout_air_switch"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="10dp" >
+	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:text="手机遥控" />
+			<ToggleButton
+				android:id="@+id/air_toggleButton"
+				android:layout_width="60.0dip"
+				android:layout_height="30.0dip"
+				android:layout_alignParentRight="true"
+				android:textOn=""
+				android:textOff=""
+				android:background="@drawable/toggle_me" />
+	  
+	        <TextView
+	            android:id="@+id/tv_set_name"
+	            style="@style/Smile.TextView._Black"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="10dp"
+	            android:drawablePadding="10dp"
+	            android:drawableRight="@drawable/ic_common_arrow" />
+	
+	    </RelativeLayout>
+	-->
+	    <RelativeLayout
+	        android:layout_marginTop="30.0dip"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="10.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="启用" />
+
+			<ToggleButton
+				android:id="@+id/toggleButton_air_set"
+				android:layout_width="60.0dip"
+				android:layout_height="35.0dip"
+				android:layout_alignParentRight="true"
+				android:textOn=""
+				android:textOff=""
+				android:background="@drawable/toggle_me" />
+
+	    </RelativeLayout>
+	    
+		<RelativeLayout
+	        android:id="@+id/layout_air_set"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:layout_marginTop="30.0dip"
+	        android:minHeight="50dp"
+	        android:padding="10dp" >
+	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="10.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="室温" />
+			
+			<TextView
+			    android:id="@+id/text_air_danwei"
+	            style="@style/Smile.TextView._Black"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="10dp"
+	            android:drawablePadding="10dp"
+	            android:drawableRight="@drawable/ic_common_arrow"
+	            android:text="℃"
+	            android:textColor="@color/color_hint" />
+			
+			<TextView
+	            android:id="@+id/text_air_set"
+	            style="@style/Smile.TextView._Black"
+	        	android:layout_toLeftOf="@id/text_air_danwei"
+	            android:layout_centerVertical="true"
+	            android:text="25"
+	            android:textColor="@color/color_hint" />
+
+	    </RelativeLayout>
+	    
+		<TextView
+	        style="@style/Smile.TextView._Black"
+	        android:layout_marginTop="10.0dip"
+	        android:layout_marginLeft="15.0dip"
+	        android:layout_marginRight="15.0dip"
+	        android:layout_marginBottom="30.0dip"
+	        android:layout_centerVertical="true"
+	        android:textSize="16sp"
+	        android:text="空调监控启用后，如果感应到室内温度达到设定值时会自动开启空调"
+	        android:textColor="@color/color_hint" />
+	</LinearLayout>
+
+</RelativeLayout>

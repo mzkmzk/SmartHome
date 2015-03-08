@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_bar"/>
+    
+    
+    <ScrollView    
+	    android:layout_width="fill_parent"    
+	    android:layout_height="fill_parent"  
+	    android:layout_below="@id/title"  
+	    android:scrollbars="none"    
+	    android:fadingEdge="vertical">
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >    
+	          	    
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:layout_marginTop="30.0dip"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/tv"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="@string/tv" />
+
+			<ToggleButton
+				android:id="@+id/toggleButton_tv"
+				android:layout_width="60.0dip"
+				android:layout_height="35.0dip"
+				android:layout_alignParentRight="true"
+				android:textOn=""
+				android:textOff=""
+				android:background="@drawable/toggle_me" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+		
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/air"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="@string/air" />
+
+			<ToggleButton
+				android:id="@+id/toggleButton_air"
+				android:layout_width="60.0dip"
+				android:layout_height="35.0dip"
+				android:layout_alignParentRight="true"
+				android:textOn=""
+				android:textOff=""
+				android:background="@drawable/toggle_me" />
+
+	    </RelativeLayout>
+	   
+    	<TextView
+	        style="@style/Smile.TextView._Black"
+	        android:layout_marginTop="30.0dip"
+	        android:layout_marginLeft="20.0dip"
+	        android:layout_marginBottom="10.0dip"
+	        android:layout_centerVertical="true"
+	        android:textSize="16sp"
+	        android:text="客厅："
+	        android:textColor="@color/color_hint" />	    
+	
+    	<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="10.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="1号灯" />
+
+			<ToggleButton
+				android:id="@+id/toggleButton_light1"
+				android:layout_width="60.0dip"
+				android:layout_height="35.0dip"
+				android:layout_alignParentRight="true"
+				android:textOn=""
+				android:textOff=""
+				android:background="@drawable/toggle_me" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="10.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="2号灯" />
+
+			<ToggleButton
+				android:id="@+id/toggleButton_light2"
+				android:layout_width="60.0dip"
+				android:layout_height="35.0dip"
+				android:layout_alignParentRight="true"
+				android:textOn=""
+				android:textOff=""
+				android:background="@drawable/toggle_me" />
+
+	    </RelativeLayout>
+	
+	       
+    	<TextView
+	        style="@style/Smile.TextView._Black"
+	        android:layout_marginTop="30.0dip"
+	        android:layout_marginLeft="20.0dip"
+	        android:layout_marginBottom="10.0dip"
+	        android:layout_centerVertical="true"
+	        android:textSize="16sp"
+	        android:text="主卧："
+	        android:textColor="@color/color_hint" />	    
+	     
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="10.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="3号灯" />
+
+			<ToggleButton
+				android:id="@+id/toggleButton_light3"
+				android:layout_width="60.0dip"
+				android:layout_height="35.0dip"
+				android:layout_alignParentRight="true"
+				android:textOn=""
+				android:textOff=""
+				android:background="@drawable/toggle_me" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+		<RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="5dp" >
+			
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="10.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="4号灯" />
+
+			<ToggleButton
+				android:id="@+id/toggleButton_light4"
+				android:layout_width="60.0dip"
+				android:layout_height="35.0dip"
+				android:layout_alignParentRight="true"
+				android:textOn=""
+				android:textOff=""
+				android:background="@drawable/toggle_me" />
+
+	    </RelativeLayout>
+	</LinearLayout>
+	
+	</ScrollView>
+</LinearLayout>

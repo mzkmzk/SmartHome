@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray"
+    android:orientation="vertical" >
+    
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="48dp"
+	    android:orientation="horizontal" 
+	    android:background="@color/color_blue">
+	     <TextView 
+	        android:id="@+id/tv_top_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/main_Tab2"
+	        android:layout_centerInParent="true"
+	        android:lines="1"
+	        android:textSize="19sp"
+	        android:textColor="@color/color_white"/>
+	</RelativeLayout>
+	
+
+	<ScrollView    
+	    android:layout_width="fill_parent"    
+	    android:layout_height="fill_parent"  
+	    android:scrollbars="none"    
+	    android:fadingEdge="vertical">
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >    
+	    
+	    	<RelativeLayout
+	        android:id="@+id/layout_athome"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	         android:layout_marginTop="30.0dip"
+	        android:padding="10dp" >
+		    
+		    <ImageView 
+		        android:layout_width="35dp"
+		        android:layout_height="35dp"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/security_model_normal"
+		        />	
+		        
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="@string/main_modal_off" />
+
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="10dp"
+	            android:drawablePadding="10dp"
+	            android:drawableRight="@drawable/ic_common_arrow"
+	            android:text=""
+	            android:textColor="@color/color_hint" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+	    
+		<RelativeLayout
+	        android:id="@+id/layout_leavehome"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	       
+	        android:padding="10dp" >
+		    
+		    <ImageView 
+		        android:layout_width="35dp"
+		        android:layout_height="35dp"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/security_model_press"
+		        />
+		    
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="@string/main_modal_on" />
+
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="10dp"
+	            android:drawablePadding="10dp"
+	            android:drawableRight="@drawable/ic_common_arrow"
+	            android:text=""
+	            android:textColor="@color/color_hint" />
+
+	    </RelativeLayout>
+	
+	     <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/base_line_width_2"
+	        android:background="@drawable/prefresh_list_cutline" >
+	    </View>
+	    
+			    
+		<RelativeLayout
+	        android:id="@+id/layout_running_jiaju"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:padding="10dp" >
+		    
+		    <ImageView 
+		        android:layout_width="35dp"
+		        android:layout_height="35dp"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/running_jiaju"
+		        />	
+		        
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="正在运行的家电" />
+
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="10dp"
+	            android:drawablePadding="10dp"
+	            android:drawableRight="@drawable/ic_common_arrow"
+	            android:text=""
+	            android:textColor="@color/color_hint" />
+
+	    </RelativeLayout>
+		
+	
+		<RelativeLayout
+	        android:id="@+id/layout_defend"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:layout_marginTop="50.0dip"
+	        android:padding="10dp" >
+		    
+		    <ImageView 
+		        android:layout_width="35dp"
+		        android:layout_height="35dp"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/manual_mode"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="一键多控" />
+
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="10dp"
+	            android:drawablePadding="10dp"
+	            android:drawableRight="@drawable/ic_common_arrow"
+	            android:text=""
+	            android:textColor="@color/color_hint" />
+
+	    </RelativeLayout>
+	    
+		<RelativeLayout
+	        android:id="@+id/layout_voice"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:minHeight="50dp"
+	        android:layout_marginTop="50.0dip"
+	        android:layout_marginBottom="70.0dip"
+	        android:padding="10dp" >
+		    
+		    <ImageView 
+		        android:layout_width="35dp"
+		        android:layout_height="35dp"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/recognition_normal_2"
+		        />
+		    	
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_marginLeft="50.0dip"
+	            android:layout_centerVertical="true"
+	            android:text="语音功能设置" />
+
+	        <TextView
+	            style="@style/Smile.TextView._Black"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="10dp"
+	            android:drawablePadding="10dp"
+	            android:drawableRight="@drawable/ic_common_arrow"
+	            android:text=""
+	            android:textColor="@color/color_hint" />
+
+	    </RelativeLayout>
+	
+	</LinearLayout>
+	
+	</ScrollView>
+</LinearLayout>
