@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+    
+
+    
+<struts>
+     <package name="Pac" extends="json-default" namespace="/Pac"><!-- 注意extends一定要json-default -->
+      
+       <!-- Test -->
+       <action name="queryKongTiao" class="com.pac.action.queryKongTiao">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      
+       <action name="updateKongTiao" class="com.pac.action.updateKongTiao">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+   </package>
+   
+</struts>

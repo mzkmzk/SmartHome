@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ehome"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+ <!--   此为application下的第一行  启动报错 临时删除 android:name="com.ehome.BaiDuMap.DemoApplication"--> 
+    <application
+        android:name="com.ehome.SpeechApp"
+        android:allowBackup="true"
+        android:icon="@drawable/smart_home"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.ehome.WelcomeActivity"
+            android:label="@string/app_name"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="org.achartengine.GraphicalActivity"/>
+        
+        
+        <activity				  
+            android:name="com.ehome.LoginActivity"
+            android:label="主页面" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.IndexActivity"
+            android:label="主页面" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.HomeActivity"
+            android:label="主页面" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.SetActivity"
+            android:label="设置页面" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.TvControlActivity"
+            android:label="电视控制" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.AirControlActivity"
+            android:label="空调控制" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.AirSetActivity"
+            android:label="空调设置" >
+        </activity>
+       <activity				  
+            android:name="com.ehome.LeaveHomeActivity"
+            android:label="离家模式" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.AtHomeActivity"
+            android:label="在家模式" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.RunningJiaJuActivity"
+            android:label="正在运行的家电" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.VoiceActivity"
+            android:label="语音指令" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.DefendActivity"
+            android:label="一键多控" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.LightControlActivity"
+            android:label="灯光控制" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.CushionControlActivity"
+            android:label="坐垫控制" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.DoorActivity"
+            android:label="门控制" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.DoorfaceActivity"
+            android:label="门控制" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.HumitureControlActivity"
+            android:label="温湿度控制" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.HumitureTabActivity"
+            android:screenOrientation="landscape"
+            android:label="温湿表" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.HumitureTab2Activity"
+            android:screenOrientation="landscape"
+            android:label="温湿表" >
+        </activity>
+        <activity				  
+            android:name="com.ehome.Animation_hint"
+            android:label="提示动画" >
+        </activity>
+        
+        <!--  百度地图 Activity配置开始 -->
+        
+         <activity
+            android:name="com.ehome.BaiDuMap.MapControlDemo"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="地图操作功能"
+            android:screenOrientation="sensor" >
+        </activity>
+                <service
+            android:name="com.ehome.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+         <activity
+            android:name="com.ehome.BaiDuMap.RoutePlanDemo"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="地图模式"
+            android:screenOrientation="sensor" >
+        </activity>
+        
+        <!--  百度地图 Activity配置结束 -->
+        
+        <!-- 服务推送配置开始 -->
+         <!-- Polling Service -->
+        <service android:name="com.ehome.tuisong.server.PollingService">
+            <intent-filter>
+                <action android:name="com.ehome.tuisong.server.PollingService"/>
+            </intent-filter>
+        </service>
+        <!-- 服务推送配置结束 -->
+        
+        <!--  -->
+        <activity android:name="com.ehome.cammonitor.ServerAct" android:screenOrientation="landscape">
+    </activity>
+    </application>
+    
+    
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.VIBRATE"/>
+<!--使用网络功能所需权限  -->
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+</uses-permission>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE">
+</uses-permission>
+<uses-permission android:name="android.permission.CHANGE_WIFI_STATE">
+</uses-permission>
+<!-- SDK离线地图和cache功能需要读写外部存储器 -->
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+</uses-permission>
+<!-- 获取设置信息和详情页直接拨打电话需要以下权限  -->
+<uses-permission android:name="android.permission.READ_PHONE_STATE">
+</uses-permission>
+<uses-permission android:name="android.permission.CALL_PHONE">
+</uses-permission>
+<!-- 使用定位功能所需权限,demo已集成百度定位SDK,不使用定位功能可去掉以下6项 -->
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+</uses-permission>
+<permission android:name="android.permission.BAIDU_LOCATION_SERVICE">
+</permission>
+<uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE">
+</uses-permission>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION">
+</uses-permission>
+<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION">
+</uses-permission>
+<uses-permission android:name="android.permission.ACCESS_GPS"/>                  
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+    
+    <!-- 讯飞云语音配置开始 -->
+ 	<!--连接网络权限，用于执行云端语音能力  -->
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<!--获取手机录音机使用权限，听写、识别、语义理解需要用到此权限  -->
+	<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+	<!--读取网络信息状态  -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<!--获取当前wifi状态  -->
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<!--允许程序改变网络连接状态  -->
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+	<!--读取手机信息权限  -->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<!--读取联系人权限，上传联系人需要用到此权限  -->
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	<!-- 讯飞云语音配置结束 -->
+	
+</manifest>

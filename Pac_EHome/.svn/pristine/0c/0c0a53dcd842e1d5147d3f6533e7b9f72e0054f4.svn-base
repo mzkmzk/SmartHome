@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <color name="color_white">#ffffff</color>  
+    <color name="color_white_hover">#BDC3C7</color>  
+    <color name="color_green">#24890d</color>  
+    <color name="color_hint">#555555</color>
+    <color name="color_black">#ff000000</color>     
+    <color name="color_red">#ffde4125</color>
+    <color name="color_blue">#ff3995e3</color>
+    <color name="color_tabbar_text_gray">#ff6f6f6f</color>
+    <color name="gray">#DBDBDB</color> 
+    <color name="color_gray">#ffe0e0e0</color>
+    <color name="devide_line">#CBCED2</color>
+    
+    <color name="transparent">#00000000</color>
+    <color name="base_bg">#f4f6f6</color>
+    <color name="theme_bg_color">#f0f2f5</color>
+    <color name="color_theme">#489cfa</color>
+
+        
+    <color name="color_title">#34495E</color>
+    <color name="color_title_hover">#2C3E50</color>
+</resources>  

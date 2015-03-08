@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_bar"
+        android:id="@+id/title"/>
+    
+    <ScrollView    
+	    android:layout_width="fill_parent"    
+	    android:layout_height="fill_parent" 
+	    android:layout_below="@id/title"   
+	    android:scrollbars="none"    
+	    android:fadingEdge="vertical">
+   	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center_vertical"
+	    android:orientation="vertical" >
+	   
+   	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="40dp"
+	        android:padding="5dp" >
+	        
+ <!--  android:layout_marginTop="5.0dip"-->
+ 
+   	        <Button
+   	            android:id="@+id/btn_tv_two"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_centerHorizontal="true"
+   	            android:text="2"
+   	            android:background="@drawable/toggle_switch_other"
+   	            android:textSize="25dp" />
+   	        <Button
+   	            android:id="@+id/btn_tv_one"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_toLeftOf="@id/btn_tv_two"
+   	            android:layout_marginRight="50.0dip"
+   	            android:text="1"
+   	            android:background="@drawable/toggle_switch_other"
+   	            android:textSize="25dp" />
+   	        <Button
+   	            android:id="@+id/btn_tv_three"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_toRightOf="@id/btn_tv_two"
+   	            android:layout_marginLeft="50.0dip"   	            
+   	            android:text="3"
+   	            android:background="@drawable/toggle_switch_other"
+   	            android:textSize="25dp" />
+			
+	    </RelativeLayout>
+   	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="40dp"
+	        android:padding="5dp" >
+
+   	        <Button
+   	            android:id="@+id/btn_tv_five"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_centerHorizontal="true"
+   	            android:text="5"
+   	            android:background="@drawable/toggle_switch_other"
+   	            android:textSize="25dp" />
+   	        <Button
+   	            android:id="@+id/btn_tv_four"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_toLeftOf="@id/btn_tv_five"
+   	            android:layout_marginRight="50.0dip"
+   	            android:text="4"
+   	            android:background="@drawable/toggle_switch_other"
+   	            android:textSize="25dp" />
+   	        <Button
+   	            android:id="@+id/btn_tv_six"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_toRightOf="@id/btn_tv_five"
+   	            android:layout_marginLeft="50.0dip"   	            
+   	            android:text="6"
+   	            android:background="@drawable/toggle_switch_other"
+   	            android:textSize="25dp" />
+			
+	    </RelativeLayout>
+   	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="40dp"
+	        android:padding="5dp" >
+
+   	        <Button
+   	            android:id="@+id/btn_tv_eight"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_centerHorizontal="true"
+   	            android:text="8"
+   	            android:background="@drawable/toggle_switch_other"
+   	            android:textSize="25dp" />
+   	        <Button
+   	            android:id="@+id/btn_tv_seven"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_toLeftOf="@id/btn_tv_eight"
+   	            android:layout_marginRight="50.0dip"
+   	            android:text="7"
+   	            android:background="@drawable/toggle_switch_other"
+   	            android:textSize="25dp" />
+   	        <Button
+   	            android:id="@+id/btn_tv_nine"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_toRightOf="@id/btn_tv_eight"
+   	            android:layout_marginLeft="50.0dip"   	            
+   	            android:text="9"
+   	            android:background="@drawable/toggle_switch_other"
+   	            android:textSize="25dp" />
+			
+	    </RelativeLayout>
+   	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="40dp"
+	        android:padding="5dp" >
+
+   	        <Button
+   	            android:id="@+id/btn_tv_zero"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_centerHorizontal="true"
+   	            android:text="0"
+   	            android:background="@drawable/toggle_switch_other"
+   	            android:textSize="25dp" />
+			
+	    </RelativeLayout>
+	    
+   	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="40dp"
+	        android:padding="10dp" >
+
+   	        <Button
+   	            android:id="@+id/btn_tv_up"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_centerHorizontal="true"
+   	            android:background="@drawable/btn_up" />
+			
+	    </RelativeLayout>
+   	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="40dp"
+	        android:padding="5dp" >
+	        
+   	        <ToggleButton
+   	            android:id="@+id/btn_tv_switch"
+   	            android:layout_width="100dp"
+   	            android:layout_height="100dp"
+   	           	android:background="@drawable/toggle_switch"
+   	            android:textOn=""
+				android:textOff=""
+				android:textColor="@color/color_hint"
+   	            android:layout_centerHorizontal="true"/>	
+   	            		
+   	        <Button
+   	            android:id="@+id/btn_tv_left"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_marginLeft="50dp"
+   	            android:layout_alignParentLeft="true"
+   	            android:layout_centerVertical="true"
+   	            android:background="@drawable/btn_left"/>
+
+   	        <Button
+   	            android:id="@+id/btn_tv_right"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_marginRight="50dp"
+   	            android:layout_alignParentRight="true"
+   	            android:layout_centerVertical="true"
+   	            android:background="@drawable/btn_right" />
+			
+	    </RelativeLayout>
+   	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="40dp"
+	        android:padding="5dp" >
+
+   	        <Button
+   	            android:id="@+id/btn_tv_down"
+   	            android:layout_width="50dp"
+   	            android:layout_height="50dp"
+   	            android:layout_centerHorizontal="true"
+   	            android:background="@drawable/btn_down"/>
+
+	    </RelativeLayout>
+	    
+   	</LinearLayout>
+   	</ScrollView>
+</RelativeLayout>
