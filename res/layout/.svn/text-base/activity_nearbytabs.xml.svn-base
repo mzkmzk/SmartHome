@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+		<!--<RelativeLayout 
+	        android:background="@drawable/title_bar" 
+	        android:orientation="horizontal" 
+	        android:paddingLeft="10dp" 
+	        android:gravity="center" 
+	        android:id="@+id/nearbytabs_header"
+	        android:layout_height="46dp" 
+	        android:layout_width="fill_parent">
+			<TextView 
+			    android:gravity="center" 
+			    android:textAppearance="?android:attr/textAppearanceMedium" 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="fill_parent" 
+			    android:text="分类"/>
+	    </RelativeLayout> 
+	    -->
+        <LinearLayout
+            android:id="@+id/abouttabs_linear_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:layout_below="@+id/nearbytabs_header"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+				<LinearLayout 
+				    android:layout_height="fill_parent"
+				    android:layout_width="fill_parent"
+				    android:id="@+id/tab1"
+				    android:orientation="vertical">
+	          	    	<com.botb.InnerListView 
+				        	android:id="@+id/lv_near_tab1"
+				        	android:layout_width="fill_parent"
+				        	android:divider="@null"
+				        	android:layout_height="wrap_content"
+				        	android:cacheColorHint="#00000000"
+				        	 />
+	           </LinearLayout>
+            	<LinearLayout 
+            	    android:id="@+id/tab2"
+            	    android:orientation="vertical"
+            	    android:layout_width="fill_parent"
+            	    android:layout_height="fill_parent">
+				    <com.botb.InnerListView 
+			        	android:id="@+id/lv_near_tab2"
+			        	android:layout_width="fill_parent"
+			        	android:layout_height="wrap_content"
+			        	android:divider="@null"
+			        	android:cacheColorHint="#00000000"
+			        	 />
+            	</LinearLayout>
+            	<LinearLayout 
+            	    android:id="@+id/tab3"
+            	    android:orientation="vertical"
+            	    android:layout_width="fill_parent"
+            	    android:layout_height="fill_parent">
+				    <com.botb.InnerListView 
+			        	android:id="@+id/lv_near_tab3"
+			        	android:layout_width="fill_parent"
+			        	android:layout_height="wrap_content"
+			        	android:divider="@null"
+			        	android:cacheColorHint="#00000000"
+			        	 />
+            	</LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+</TabHost>

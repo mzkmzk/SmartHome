@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:background="@drawable/view03"    
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent"
+	  	>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="30dp"
+              android:paddingRight="30dp"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="96dp"
+              android:text="搜索商家,查看商家信息,实现远程排号节约我的排号时间!"
+              android:textColor="#fff" 
+              android:gravity="center_horizontal"             
+              android:textSize="18sp" />
+      </RelativeLayout>

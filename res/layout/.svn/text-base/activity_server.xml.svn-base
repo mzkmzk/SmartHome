@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_right"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="130dp"
+        android:background="@color/bg_color_deep"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="#34495E"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ser_km_add_text"
+                android:text="添加类型"
+                android:layout_alignParentRight="true"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp" />
+             <ImageButton
+                android:id="@+id/ser_km_add"
+                android:background="@color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/ser_km_add_text"
+                android:src="@drawable/ic_input_add" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_set"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_left"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/server_title"
+            android:background="@drawable/nav_bg" >
+
+            <ImageView
+                android:id="@+id/iv_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_btn_search_go" />
+            <ImageButton 
+			    android:id="@+id/server_spinner_btn"
+			    android:layout_width="70dip" 
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentLeft="true" 
+        		android:layout_centerVertical="true"
+        		android:layout_marginRight="10dp"
+				android:src="@drawable/mm_title_btn_menu"
+				android:background="@drawable/title_btn_right"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="排号管理"
+                android:id="@+id/kemu_name"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+  		<RelativeLayout 
+		    android:layout_height="fill_parent"
+		    android:layout_width="fill_parent"
+		    android:layout_below="@+id/server_title">
+	    	<ListView
+	        	android:id="@+id/lv"
+	        	android:background="@drawable/login_border_bg"
+	        	android:layout_marginTop="5dp"
+	        	android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:listSelector="#00000000"
+	        	android:cacheColorHint="#00000000"/>
+		</RelativeLayout>
+		<RelativeLayout
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:id="@+id/server_spinner"
+	       android:visibility="gone"
+	       android:layout_below="@+id/server_title"  >
+	    	<LinearLayout
+	    	    android:id="@+id/main_dialog_layout"
+		      	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_alignParentLeft="true"
+	        	android:layout_alignParentTop="true"
+	        	android:orientation="vertical"
+	        	android:gravity="center_vertical"
+	        	android:background="@drawable/title_function2_bg" >
+				<LinearLayout
+	    		    android:layout_width="fill_parent"
+	    		    android:layout_height="wrap_content"
+	    		    android:orientation="vertical">
+	    		    <Button
+	    			    android:id="@+id/ser_shuaxin"
+	    			    android:layout_width="100dp"
+	    			    android:layout_height="wrap_content"
+	    			    android:padding="8dp"
+	    			    android:background="#00ffffff"
+	    			    android:text="刷新"
+	    			    android:textColor="#ffffff"
+	    			    android:textSize="18sp" />
+	    			<Button
+	    			    android:id="@+id/ser_add"
+	    			    android:layout_width="100dp"
+	    			    android:layout_height="wrap_content"
+	    			    android:padding="8dp"
+	    			    android:background="#00ffffff"
+	    			    android:text="添加排号"
+	    			    android:textColor="#ffffff"
+	    			    android:textSize="18sp" />
+	    			<Button
+						android:id="@+id/ser_bianji"
+	    			    android:layout_width="100dp"
+	    			    android:layout_height="wrap_content"
+	    			    android:padding="8dp"
+	    			    android:background="#00ffffff"
+	    			    android:text="修改信息"
+	    			    android:textColor="#fff"
+	    			    android:textSize="18sp" />
+	    			<Button
+						android:id="@+id/ser_dingwei"
+	    			    android:layout_width="100dp"
+	    			    android:layout_height="wrap_content"
+	    			    android:padding="8dp"
+	    			    android:background="#00ffffff"
+	    			    android:text="企业定位"
+	    			    android:textColor="#fff"
+	    			    android:textSize="18sp" />
+	    		</LinearLayout>
+	       	</LinearLayout>
+   		 </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/Botb/!svn/ver/220/Botb/res/anim
+END
+fade_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Botb/!svn/ver/209/Botb/res/anim/fade_in.xml
+END
+pop_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Botb/!svn/ver/220/Botb/res/anim/pop_out.xml
+END
+fade_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Botb/!svn/ver/209/Botb/res/anim/fade_out.xml
+END
+hold.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/Botb/!svn/ver/209/Botb/res/anim/hold.xml
+END
+mshowpicture.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Botb/!svn/ver/220/Botb/res/anim/mshowpicture.xml
+END
+push_top_in2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Botb/!svn/ver/156/Botb/res/anim/push_top_in2.xml
+END
+welcome_ctrlbar_slideup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Botb/!svn/ver/91/Botb/res/anim/welcome_ctrlbar_slideup.xml
+END
+push_top_out2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Botb/!svn/ver/156/Botb/res/anim/push_top_out2.xml
+END
+pop_enter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Botb/!svn/ver/220/Botb/res/anim/pop_enter.xml
+END
+progress_round.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Botb/!svn/ver/220/Botb/res/anim/progress_round.xml
+END
+zoomin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/Botb/!svn/ver/220/Botb/res/anim/zoomin.xml
+END
+zoomout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Botb/!svn/ver/220/Botb/res/anim/zoomout.xml
+END
+guide_welcome_fade_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Botb/!svn/ver/220/Botb/res/anim/guide_welcome_fade_in.xml
+END

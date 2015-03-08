@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base_action_bar_height">48.0dip</dimen>
+    <dimen name="base_line_width_1">1dip</dimen>
+    <dimen name="base_line_width_2">2dip</dimen>    
+</resources>

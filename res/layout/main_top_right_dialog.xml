@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"       
+   >
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"  
+       android:layout_marginTop="46dp"
+             >
+    	<LinearLayout
+    	    android:id="@+id/main_dialog_layout"
+	      	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true"
+        	android:orientation="vertical"
+        	android:layout_marginRight="10dp"
+        	android:gravity="center_vertical"
+        	android:background="@drawable/title_function_bg" >
+    		<LinearLayout
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="wrap_content"
+    		    android:paddingTop="10dp"
+    		    android:paddingBottom="10dp" 
+    		    android:orientation="vertical">
+    			<Button
+    			    android:id="@+id/search_dialog_qb"
+    			    android:layout_width="100dp"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:background="#00ffffff"
+    			    android:text="搜素全部"
+    			    android:textColor="#ffffff"
+    			    android:textSize="18sp" />
+    			<Button
+					android:id="@+id/search_dialog_yy"
+    			    android:layout_width="100dp"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:background="#00ffffff"
+    			    android:text="医院"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />
+    			<Button
+    			    android:id="@+id/search_dialog_yh"
+    			    android:layout_width="100dp"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:gravity="center"
+    			    android:background="#00ffffff"
+    			    android:text="银行"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />  
+    			<Button
+    			    android:id="@+id/search_dialog_ct"
+    			    android:layout_width="100dp"
+    			    android:layout_height="wrap_content"
+    			    android:background="#00ffffff"
+    			    android:padding="8dp"
+    			    android:text="热门餐厅"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+       </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

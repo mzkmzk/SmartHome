@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="#FFF">
+    <!-- 中间动态加载View -->
+    
+	<ScrollView 
+	    android:id="@+id/container_index" 
+	    android:measureAllChildren="true" 
+	    android:fillViewport="true" 
+	    android:layout_weight="1" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tabbar_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+		
+		
+		<LinearLayout 
+		    android:id="@+id/layoutmenu_fj" 
+		    android:orientation="vertical" 
+		    android:gravity="center" 
+		    android:layout_height="fill_parent" 
+		    android:layout_width="80dp" >
+			<ImageView 
+			    android:scaleType="fitXY" 
+			    android:id="@+id/menu_fj" 
+			    android:background="@drawable/menu_22" 
+			    android:layout_height="22dp" 
+			    android:layout_width="22dp"/>
+			<TextView 
+			    style="@style/theme_fontcolor_white" 
+			    android:textAppearance="?android:attr/textAppearanceSmall" 
+			    android:gravity="center" 
+			    android:text="分类" 
+			    android:textColor="@color/color_blue"
+			    android:id="@+id/cx_text_fj" 
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"/>
+		</LinearLayout>
+		<LinearLayout 
+		    android:id="@+id/layoutmenu_ss" 
+		    android:background="@drawable/menu_def" 
+		    android:orientation="vertical" 
+		    android:gravity="center" 
+		    android:layout_height="fill_parent" 
+		    android:layout_width="80dp" >
+			
+			<ImageView 
+			    android:scaleType="fitXY" 
+			    android:id="@+id/menu_ss" 
+			    android:background="@drawable/menu_1" 
+			    android:layout_height="22dp" 
+			    android:layout_width="22dp"/>
+			<TextView 
+			    style="@style/theme_fontcolor_white" 
+			    android:textAppearance="?android:attr/textAppearanceSmall" 
+			    android:gravity="center" 
+			    android:text="搜索" 
+			    android:textColor="@color/hint"
+			    android:id="@+id/cx_text_ss" 
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"/>
+		</LinearLayout>
+		<LinearLayout 
+		     android:id="@+id/layoutmenu_sc" 
+		    android:background="@drawable/menu_def" 
+		    android:orientation="vertical" 
+		    android:gravity="center" 
+		    android:layout_height="fill_parent" 
+		    android:layout_width="80dp" >
+			<ImageView 
+			    android:scaleType="fitXY" 
+			     android:id="@+id/menu_sc" 
+			    android:background="@drawable/menu_3"  
+			    android:layout_height="22dp" 
+			    android:layout_width="22dp"/>
+			<TextView 
+			    style="@style/theme_fontcolor_white" 
+			    android:textAppearance="?android:attr/textAppearanceSmall" 
+			    android:gravity="center" 
+			    android:text="我" 
+			    android:textColor="@color/hint"
+			    android:id="@+id/cx_text_sc" 
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"/>
+		</LinearLayout>
+		<LinearLayout 
+		     android:id="@+id/layoutmenu_fl" 
+		    android:background="@drawable/menu_def" 
+		    android:orientation="vertical" 
+		    android:gravity="center" 
+		    android:layout_height="fill_parent" 
+		    android:layout_width="80dp" >
+			<ImageView 
+			    android:scaleType="fitXY" 
+			     android:id="@+id/menu_fl" 
+			    android:background="@drawable/menu_4" 
+			    android:layout_height="23dp" 
+			    android:layout_width="23dp"/>
+			<TextView 
+			    style="@style/theme_fontcolor_white" 
+			    android:textAppearance="?android:attr/textAppearanceSmall" 
+			    android:gravity="center" 
+			    android:text="摇一摇" 
+			    android:textColor="@color/hint"
+			    android:id="@+id/cx_text_fl" 
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"/>
+		</LinearLayout>
+		
+
+
+	</LinearLayout>
+</LinearLayout>

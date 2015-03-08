@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fcfcfc"
+    android:orientation="vertical" >
+    <RelativeLayout    
+	    android:id="@+id/sousuo"     	
+	    android:layout_width="fill_parent"
+       	android:layout_height="46.0dip"
+	    android:background="@color/color_blue"
+       	android:orientation="vertical" >
+       	
+	    <!-- 在布局文件中，在EditText前面放置一个看不到的LinearLayout，让他率先获取焦点： -->
+       	    　<LinearLayout
+				android:focusable="true"
+				android:focusableInTouchMode="true"
+				android:layout_width="0px"
+				android:layout_height="0px"/>
+		<LinearLayout 
+		    android:orientation="horizontal" 
+		    android:background="@drawable/search_bar_bg" 
+		    android:layout_height="wrap_content" 
+		    android:layout_width="fill_parent" 
+		    android:gravity="center" 
+		    android:id="@+id/linear_search" 
+		    android:padding="10dp" 
+		    android:layout_below="@+id/title">
+			<ImageView 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="wrap_content" 
+			    android:id="@+id/index_search_sou" 
+			    android:src="@drawable/search_bar_icon_normal"/>
+			<EditText 
+			    android:background="@drawable/search_bar_edit_bg" 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="fill_parent" 
+			    android:id="@+id/index_search_ev" 
+			    android:textColor="#000" 
+			    android:singleLine="true" 
+			    android:hint="搜索" 
+			    android:focusableInTouchMode="true" 
+			    android:focusable="true"> 
+			</EditText>
+		
+		</LinearLayout>
+    		 <!-- 
+	    <RelativeLayout 
+	        android:id="@+id/layout_yaoyiyao"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+   	        android:layout_marginRight="5.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1">
+			<ImageButton 
+			    android:id="@+id/right_btn"
+			    android:layout_width="50dp" 
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true" 
+        		android:layout_centerVertical="true"
+				android:src="@drawable/mm_title_btn_menu"
+				android:background="@drawable/title_btn_right"
+			    /> 
+        </RelativeLayout>
+        -->
+	    
+    </RelativeLayout>
+    
+		
+	<!-- 弹出框:android:onClick="startchat" -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/sousuo"
+        android:orientation="vertical" >
+        <com.botb.InnerListView
+            android:id="@+id/lv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:listSelector="#00000000" />
+    </RelativeLayout>
+    <!-- 
+	<RelativeLayout
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:visibility="gone"
+	       android:id="@+id/search_spinner"
+	       android:layout_below="@+id/title"  >
+	    	<LinearLayout
+	    	    android:id="@+id/main_dialog_layout"
+		      	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_alignParentRight="true"
+	        	android:layout_alignParentTop="true"
+	        	android:orientation="vertical"
+	        	android:gravity="center_vertical"
+	        	android:background="@drawable/title_function_bg" >
+	    		<LinearLayout
+	    		    android:layout_width="fill_parent"
+	    		    android:layout_height="wrap_content"
+	    		    android:paddingTop="10dp"
+	    		    android:paddingBottom="10dp" 
+	    		    android:orientation="vertical">
+	    			<Button
+	    			    android:id="@+id/search_dialog_qb"
+	    			    android:layout_width="100dp"
+	    			    android:layout_height="wrap_content"
+	    			    android:padding="8dp"
+	    			    android:background="#00ffffff"
+	    			    android:text="搜索全部"
+	    			    android:textColor="#ffffff"
+	    			    android:textSize="18sp" />
+	    			<Button
+						android:id="@+id/search_dialog_yy"
+	    			    android:layout_width="100dp"
+	    			    android:layout_height="wrap_content"
+	    			    android:padding="8dp"
+	    			    android:background="#00ffffff"
+	    			    android:text="医院"
+	    			    android:textColor="#fff"
+	    			    android:textSize="18sp" />
+	    			<Button
+	    			    android:id="@+id/search_dialog_yh"
+	    			    android:layout_width="100dp"
+	    			    android:layout_height="wrap_content"
+	    			    android:padding="8dp"
+	    			    android:gravity="center"
+	    			    android:background="#00ffffff"
+	    			    android:text="银行"
+	    			    android:textColor="#fff"
+	    			    android:textSize="18sp" />  
+	    			<Button
+	    			    android:id="@+id/search_dialog_ct"
+	    			    android:layout_width="100dp"
+	    			    android:layout_height="wrap_content"
+	    			    android:background="#00ffffff"
+	    			    android:padding="8dp"
+	    			    android:text="热门餐厅"
+	    			    android:textColor="#fff"
+	    			    android:textSize="18sp" />    		    
+	    		</LinearLayout>
+	       </LinearLayout>
+    </RelativeLayout>
+     -->
+</RelativeLayout>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e8f0f0"
+    android:orientation="vertical" >
+   
+     <RelativeLayout 
+        android:background="@color/color_blue" 
+        android:orientation="horizontal" 
+        android:gravity="center" 
+        android:layout_height="46dp" 
+        android:layout_width="fill_parent">
+	   <Button
+	        android:id="@+id/btn_title_left"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true" 
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="7.0dip"
+	        android:paddingLeft="5.0dip"
+	        android:paddingRight="5.0dip"
+	        android:background="@drawable/ic_common_left_normal2" />
+	   	<ImageButton
+	        android:id="@+id/btn_title_right"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="5dp"
+	        android:src="@drawable/ic_menu_rotate"
+  	        android:background="@drawable/top_right_button"
+  	        android:layout_alignRight="@+id/tv_top_title"/>
+	     <TextView 
+	        android:id="@+id/tv_top_title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="我的排号"
+	        android:layout_centerVertical="true"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:gravity="center"
+	        android:textSize="19sp"
+	        android:textColor="#ffffffff"/>
+
+	</RelativeLayout>
+
+	
+	<RelativeLayout
+        android:id="@+id/mynumber_layout_feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dip"
+        android:background="@drawable/bg_groupparty_desc"
+        android:layout_margin="10dp"
+        android:padding="10dip"
+        android:clickable="true" >
+
+        <LinearLayout
+            android:id="@+id/mynumber_layout_feed_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dip"
+            android:gravity="center" >
+            <ImageView
+                android:id="@+id/mynumber_riv_feed_ct"
+                android:src="@drawable/pic_index_ct"
+                android:visibility="gone"
+                android:layout_width="80dip"
+                android:layout_height="80dip" />
+             <ImageView
+                android:id="@+id/mynumber_riv_feed_yy"
+                android:src="@drawable/pic_index_yy"
+                android:visibility="gone"
+                android:layout_width="80dip"
+                android:layout_height="80dip" />
+              <ImageView
+                android:id="@+id/mynumber_riv_feed_yh"
+                android:src="@drawable/pic_index_yh"
+                android:visibility="gone"
+                android:layout_width="80dip"
+                android:layout_height="80dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mynumber_layout_txt"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:layout_toRightOf="@+id/mynumber_layout_feed_pic"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/mynumber_layout_name"
+                android:focusable="false"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+            <TextView
+                android:id="@+id/mynumber_layout_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:singleLine="false"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/mynumber_layout_jiantou"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:layout_toRightOf="@+id/mynumber_layout_txt">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_common_arrow" />
+         </LinearLayout>
+    </RelativeLayout>
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_border_bg"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingBottom="7dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="我的排号"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="@color/devideline"
+            android:orientation="vertical" >
+        </View>
+		<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dip"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:text="我的号码"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:singleLine="true"
+                        android:id="@+id/mynumber_layout_rownum"
+                        android:textColor="#f55555"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+         </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+				<View
+		            android:layout_width="fill_parent"
+		            android:layout_height="1dip"
+		            android:background="@color/devideline" />
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dip"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:text="您前面还有"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:singleLine="true"
+                        android:id="@+id/mynumber_layout_difference"
+                        android:textColor="#f55555"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+         </LinearLayout>
+		 <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+				<View
+		            android:layout_width="fill_parent"
+		            android:layout_height="1dip"
+		            android:background="@color/devideline" />
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dip"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:text="类型"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:singleLine="true"
+                        android:id="@+id/mynumber_layout_spinner"
+                        android:textColor="#f55555"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+         </LinearLayout>
+	</LinearLayout>
+	
+   	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btn_Reg_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/login_btnl_bg"
+            android:padding="10dp"
+            android:text="撤销排号"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

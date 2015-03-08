@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e8f0f0"
+    android:orientation="vertical" >
+   
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_bg" >
+
+            <Button
+		        android:id="@+id/btn_title_left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/top_left_button"
+		        android:text="返回"
+		        android:textSize="12sp"
+		        android:textColor="#ffffffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="修改信息"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+		<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/login_border_bg"
+	        android:layout_margin="10dp"
+	        android:padding="10dp"
+	        android:orientation="vertical"
+	        >
+	
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10dp" >
+	
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="企业名称："
+	                android:textColor="@color/black"
+	                android:textSize="17sp" />
+	
+	            <EditText
+	                android:id="@+id/txt_server_User"
+	                android:layout_width="fill_parent"
+	                android:layout_height="45dp"
+					android:background="@drawable/login_input"
+	                android:textColor="@color/black"
+	                android:textSize="15sp" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10dp" >
+	
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="企业地址："
+	                android:textColor="@color/black"
+	                android:textSize="17sp" />
+	
+	            <EditText
+	                android:id="@+id/txt_server_Address"
+	                android:layout_width="fill_parent"
+	                android:layout_height="45dp"
+					android:background="@drawable/login_input"
+	                android:textColor="@color/black"
+	                android:textSize="15sp" />
+	        </LinearLayout>
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10dp" >
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="企业简介："
+	                android:textColor="@color/black"
+	                android:textSize="17sp" />
+	
+	            <EditText
+	                android:id="@+id/txt_server_message"
+	                android:layout_width="fill_parent"
+	                android:layout_height="150dp"
+					android:background="@drawable/login_input"
+	                android:textColor="@color/black"
+	                android:textSize="17sp" />
+	        </LinearLayout>
+	    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_sever_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/login_btnl_bg"
+            android:padding="10dp"
+            android:text="保存修改"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+    </LinearLayout>
+</LinearLayout>

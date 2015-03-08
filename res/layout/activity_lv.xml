@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="5.0dip" >
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:visibility="gone" 
+	    android:id="@+id/lv_id"/>
+    <ImageView
+        android:id="@+id/lv_pic"
+        android:layout_width="55.0dip"
+        android:layout_height="55.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="1.0dip"
+        android:src="@drawable/pic_index_ct" />
+
+    <LinearLayout
+        android:id="@+id/appInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lv_pic"
+        android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/lv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        
+		<TextView
+            android:id="@+id/lv_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"            
+            android:textColor="#999999"
+            android:textSize="12sp" />
+    </RelativeLayout>		
+    
+        <TextView
+            android:id="@+id/lv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_gravity="bottom" >
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_alignBottom="@+id/lv_distance"
+            android:background="@drawable/prefresh_list_cutline"
+            android:orientation="vertical" >
+        </View>
+    </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

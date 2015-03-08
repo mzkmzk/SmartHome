@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="lucensy">#00000001</color>
+    <color name="translucency">#e0000000</color>
+    <color name="orange">#ffa500</color>
+    <!-- <color name="red">#bf242a</color> -->
+    <color name="transparent">#00000000</color>
+    <color name="light_orange">#fcb75c</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="gray">#DBDBDB</color>
+    <color name="trans">#50000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="text_gray">#4F4F4F</color>
+    <color name="green">#00FF00</color>
+    <color name="grey21">#363636</color>
+    <color name="gold">#b89766</color>
+    
+    
+    <color name="background_normal">#e8f0f0</color>
+    <color name="text_color">#ff434343</color>
+    <color name="text_selected_color">#ffff9f08</color>
+    <color name="text_press_color">#ffff4b08</color>
+    
+	<color name="background_normal_press">#ffece7da</color>
+	<color name="devideline">#ffb0b0b0</color>
+    <color name="red">#f00</color>  
+    <color name="color_green">#24890d</color>  
+    <color name="blue">#3498db</color>
+    <color name="hint">#999999</color>
+    <color name="color_hint">#555555</color>
+    <color name="black">#ff000000</color>     
+    <color name="color_red">#ffde4125</color>
+    <color name="color_blue">#ff3995e3</color>
+    <color name="color_tabbar_text_gray">#ff6f6f6f</color>
+    <color name="color_gray">#ffb0b0b0</color> 
+    <color name="devide_line">#CBCED2</color>
+      <color name="bg_color_deep">#E5E5E5</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="base_bg">#f4f6f6</color>
+    <color name="theme_bg_color">#f0f2f5</color>
+    <color name="color_theme">#489cfa</color>
+    
+    <color name="sliding_menu_item_down">#ff39393b</color>
+    <color name="sliding_menu_item_release">#00000000</color>
+    <color name="sliding_menu_background">#ff2c2c2e</color>
+    <color name="sliding_menu_body_background">#fff5f5f5</color>
+
+</resources>

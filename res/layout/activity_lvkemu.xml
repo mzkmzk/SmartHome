@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:id="@+id/lvser_list_kemu_child" 
+    android:padding="5dp" >
+    
+	<TextView 
+		android:id="@+id/lvser_kemu"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="22dp"
+		android:text="40dp"
+		android:textColor="@color/black" />
+
+	<Button
+	    android:id="@+id/btn_shanchu_kemu"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="10dp"
+	    android:background="@drawable/login_btnr_bg"
+	    android:padding="7dp"
+	    android:text="删除"
+	    android:textColor="#FFFFFF"
+	    android:textSize="15sp" />
+
+</RelativeLayout>

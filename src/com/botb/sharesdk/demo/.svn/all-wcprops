@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo
+END
+MainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/MainActivity.java
+END
+ShareContentCustomizeDemo.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/ShareContentCustomizeDemo.java
+END
+JsonPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/JsonPage.java
+END
+WechatPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/WechatPage.java
+END
+GetInforPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/GetInforPage.java
+END
+SlidingMenuPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/SlidingMenuPage.java
+END
+GetTokenPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/GetTokenPage.java
+END
+DemoPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/DemoPage.java
+END
+Laiwang.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/Laiwang.java
+END
+MyQZoneWebShareAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/MyQZoneWebShareAdapter.java
+END
+MainAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/MainAdapter.java
+END
+MyAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/MyAdapter.java
+END
+MyIncentivePageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/MyIncentivePageAdapter.java
+END
+OneKeyShareCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/OneKeyShareCallback.java
+END
+YixinPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/YixinPage.java
+END
+CustomerPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/CustomerPage.java
+END
+AuthPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Botb/!svn/ver/219/Botb/src/com/botb/sharesdk/demo/AuthPage.java
+END

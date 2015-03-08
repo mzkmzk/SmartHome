@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/Botb/!svn/ver/225/Botb/res/layout
+END
+main_top_right_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Botb/!svn/ver/179/Botb/res/layout/main_top_right_dialog.xml
+END
+activity_tab.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Botb/!svn/ver/222/Botb/res/layout/activity_tab.xml
+END
+activity_server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Botb/!svn/ver/225/Botb/res/layout/activity_server.xml
+END
+tabmini.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Botb/!svn/ver/220/Botb/res/layout/tabmini.xml
+END
+button_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Botb/!svn/ver/220/Botb/res/layout/button_list_item.xml
+END
+activity_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_login.xml
+END
+page_get_user_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Botb/!svn/ver/220/Botb/res/layout/page_get_user_info.xml
+END
+spinner_bh.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Botb/!svn/ver/149/Botb/res/layout/spinner_bh.xml
+END
+activity_mapcontrol.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Botb/!svn/ver/160/Botb/res/layout/activity_mapcontrol.xml
+END
+include_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Botb/!svn/ver/89/Botb/res/layout/include_header.xml
+END
+view1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Botb/!svn/ver/209/Botb/res/layout/view1.xml
+END
+page_get_access_token.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Botb/!svn/ver/220/Botb/res/layout/page_get_access_token.xml
+END
+view2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Botb/!svn/ver/209/Botb/res/layout/view2.xml
+END
+page_get_friend_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Botb/!svn/ver/220/Botb/res/layout/page_get_friend_list.xml
+END
+view3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Botb/!svn/ver/209/Botb/res/layout/view3.xml
+END
+activity_lv.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_lv.xml
+END
+page_customer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Botb/!svn/ver/220/Botb/res/layout/page_customer.xml
+END
+item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/Botb/!svn/ver/179/Botb/res/layout/item.xml
+END
+demo_page_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Botb/!svn/ver/220/Botb/res/layout/demo_page_item.xml
+END
+activity_server_bianji.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_server_bianji.xml
+END
+view4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Botb/!svn/ver/220/Botb/res/layout/view4.xml
+END
+activity_register_choose.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Botb/!svn/ver/195/Botb/res/layout/activity_register_choose.xml
+END
+activity_search_gallery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_search_gallery.xml
+END
+activity_mynumber_spinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_mynumber_spinner.xml
+END
+auth_page_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Botb/!svn/ver/220/Botb/res/layout/auth_page_item.xml
+END
+page_get_friend_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Botb/!svn/ver/220/Botb/res/layout/page_get_friend_list_item.xml
+END
+page_wechate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Botb/!svn/ver/220/Botb/res/layout/page_wechate.xml
+END
+fragment_news_pop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Botb/!svn/ver/220/Botb/res/layout/fragment_news_pop.xml
+END
+dialoglayout2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Botb/!svn/ver/204/Botb/res/layout/dialoglayout2.xml
+END
+activity_yaoyiyao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_yaoyiyao.xml
+END
+page_demo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Botb/!svn/ver/220/Botb/res/layout/page_demo.xml
+END
+page_show_user_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Botb/!svn/ver/220/Botb/res/layout/page_show_user_info.xml
+END
+viewpager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Botb/!svn/ver/220/Botb/res/layout/viewpager.xml
+END
+activity_rownumber.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_rownumber.xml
+END
+dialoglayout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Botb/!svn/ver/204/Botb/res/layout/dialoglayout.xml
+END
+page_auth.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Botb/!svn/ver/220/Botb/res/layout/page_auth.xml
+END
+activity_register.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_register.xml
+END
+common_toast.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Botb/!svn/ver/128/Botb/res/layout/common_toast.xml
+END
+activity_register_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_register_message.xml
+END
+title_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Botb/!svn/ver/220/Botb/res/layout/title_bar.xml
+END
+activity_nearbytabs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_nearbytabs.xml
+END
+activity_welcome.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_welcome.xml
+END
+activity_lvser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_lvser.xml
+END
+custom_text_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Botb/!svn/ver/166/Botb/res/layout/custom_text_view.xml
+END
+activity_spinner_son.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Botb/!svn/ver/179/Botb/res/layout/activity_spinner_son.xml
+END
+routeplan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Botb/!svn/ver/179/Botb/res/layout/routeplan.xml
+END
+activity_mynumber.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_mynumber.xml
+END
+toast_customer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Botb/!svn/ver/128/Botb/res/layout/toast_customer.xml
+END
+activity_register_confirm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_register_confirm.xml
+END
+customprogressdialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Botb/!svn/ver/220/Botb/res/layout/customprogressdialog.xml
+END
+activity_lvkemu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Botb/!svn/ver/220/Botb/res/layout/activity_lvkemu.xml
+END
